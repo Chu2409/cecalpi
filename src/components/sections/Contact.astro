@@ -11,13 +11,13 @@ import Container from "../shared/Container.astro";
       <div class="absolute right-0 top-0 h-full w-full flex justify-end">
         <div class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl">
           <span
-            class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"
+            class="absolute w-16 h-16 -top-1 -right-1 bg-primary-500 rounded-md rotate-45"
           ></span>
           <span
-            class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
+            class="absolute w-16 h-16 -bottom-1 -right-1 bg-secondary-400 rounded-md rotate-45"
           ></span>
           <span
-            class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary-400 rounded-md rotate-45"
+            class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary-200 rounded-md rotate-45"
           ></span>
         </div>
       </div>
@@ -25,13 +25,13 @@ import Container from "../shared/Container.astro";
       <div class="absolute left-0 bottom-0 h-full w-full flex items-end">
         <div class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl">
           <span
-            class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"
+            class="absolute w-16 h-16 -top-1 -right-1 bg-secondary-500 rounded-md rotate-45"
           ></span>
           <span
-            class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
+            class="absolute w-16 h-16 -bottom-1 -right-1 bg-secondary-200 rounded-md rotate-45"
           ></span>
           <span
-            class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary-400 rounded-md rotate-45"
+            class="absolute w-16 h-16 -bottom-1 -left-1 bg-secondary-50 rounded-md rotate-45"
           ></span>
         </div>
       </div>
@@ -47,7 +47,9 @@ import Container from "../shared/Container.astro";
           > con nosotros
         </h1>
 
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 w-full">
+        <div
+          class="grid max-md:justify-center md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 w-full"
+        >
           <div
             class="flex flex-col gap-2 justify-center items-center transition-all duration-300 dark:hover:bg-gray-700/60 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow py-3 max-w-xs"
           >
@@ -82,7 +84,7 @@ import Container from "../shared/Container.astro";
           </div>
 
           <div
-            class="flex flex-col gap-2 justify-center items-center transition-all duration-300 dark:hover:bg-gray-700/60 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow py-3 max-w-xs"
+            class="flex flex-col gap-2 justify-center items-center transition-all duration-300 dark:hover:bg-gray-700/60 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow p-3 max-w-xs"
           >
             <span class="text-base md:text-lg font-semibold text-primary-700"
               >Dirección</span
