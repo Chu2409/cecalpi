@@ -1,0 +1,19 @@
+---
+import Image from "astro/components/Image.astro";
+import Container from "../shared/Container.astro";
+import Title from "../shared/Title.astro";
+---
+
+<section id="values">
+  <Container className="w-full flex items-center flex-col gap-10">
+    <div class="mx-auto">
+      <Title> Nuestros <span class="text-primary-700">Valores</span> </Title>
+    </div>
+
+    <img
+      src="/images/values.png"
+      alt="values"
+      class="border-t-2 border-r-2 shadow-lg rounded-3xl p-10 h-auto w-[900px]"
+    />
+  </Container>
+</section>

@@ -1,0 +1,148 @@
+---
+import Container from "../shared/Container.astro";
+
+// CompanyHistory.astro
+---
+
+<section id="history">
+  <Container>
+    <div class="text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        Nuestra Historia
+      </h2>
+      <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-500">
+        Un viaje de innovación y crecimiento desde nuestros inicios
+      </p>
+    </div>
+
+    <div class="mt-16 relative">
+      {/* Línea conectora principal */}
+      <div
+        class="absolute left-1/2 top-0 bottom-0 w-0.5 hidden md:block"
+        style={{
+          background:
+            "linear-gradient(to bottom, transparent 0%, #e5e7eb 0%) right,linear-gradient(to right, #e5e7eb 50%, transparent 50%) right",
+          backgroundSize: "2px 40px, 100px 2px",
+          backgroundRepeat: "repeat-y, repeat-x",
+          transform: "translateX(-50%)",
+          zIndex: -1,
+        }}
+      >
+      </div>
+
+      <div class="flex flex-col md:flex-row gap-8 items-center relative">
+        <div
+          class="absolute left-1/2 top-1/2 w-3 h-3 bg-primary-600 rounded-full hidden md:block"
+          style={{
+            transform: "translate(-50%, -50%)",
+          }}
+        >
+        </div>
+        <div class="md:w-1/2">
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <span class="text-primary-600 font-semibold">2024</span>
+            <h3 class="mt-2 text-xl font-bold text-gray-900">
+              Nuestros Inicios
+            </h3>
+            <p class="mt-4 text-gray-600">
+              CELCAPI (Centro de Capacitación en Latonería y Pintura) es un
+              centro de formación especializado, fundado en 2024 por Xavier
+              Chávez con el propósito de compartir su conocimiento y pasión por
+              la reparación automotriz.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col md:flex-row-reverse gap-8 items-center relative mt-8"
+      >
+        <div
+          class="absolute left-1/2 top-1/2 w-3 h-3 bg-primary-600 rounded-full hidden md:block"
+          style={{
+            transform: "translate(-50%, -50%)",
+          }}
+        >
+        </div>
+        <div class="md:w-1/2">
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h3 class="mt-2 text-xl font-bold text-gray-900">Impulso</h3>
+            <p class="mt-4 text-gray-600">
+              Impulsado por su deseo de emprender y transmitir sus habilidades a
+              las nuevas generaciones, Xavier Chávez decidió crear un espacio
+              donde el aprendizaje teórico y práctico se complementarán para
+              ofrecer una formación integral.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row gap-8 items-center relative">
+        <div
+          class="absolute left-1/2 top-1/2 w-3 h-3 bg-primary-600 rounded-full hidden md:block"
+          style={{
+            transform: "translate(-50%, -50%)",
+          }}
+        >
+        </div>
+        <div class="md:w-1/2">
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <span class="text-primary-600 font-semibold">2024</span>
+            <h3 class="mt-2 text-xl font-bold text-gray-900">Enfoque</h3>
+            <p class="mt-4 text-gray-600">
+              El enfoque principal de CELCAPI es proporcionar a sus estudiantes
+              una educación de alta calidad en las áreas de latonería y pintura
+              automotriz.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col md:flex-row-reverse gap-8 items-center relative mt-8"
+      >
+        <div
+          class="absolute left-1/2 top-1/2 w-3 h-3 bg-primary-600 rounded-full hidden md:block"
+          style={{
+            transform: "translate(-50%, -50%)",
+          }}
+        >
+        </div>
+        <div class="md:w-1/2">
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <h3 class="mt-2 text-xl font-bold text-gray-900">Metodología</h3>
+            <p class="mt-4 text-gray-600">
+              Los cursos están diseñados para combinar la teoría técnica con la
+              experiencia práctica, asegurando que los alumnos no solo
+              comprendan los fundamentos, sino que también adquieran destrezas
+              reales que les permitan destacar en el mercado laboral.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row gap-8 items-center relative">
+        <div
+          class="absolute left-1/2 top-1/2 w-3 h-3 bg-primary-600 rounded-full hidden md:block"
+          style={{
+            transform: "translate(-50%, -50%)",
+          }}
+        >
+        </div>
+        <div class="md:w-1/2">
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <span class="text-primary-600 font-semibold">2024</span>
+            <h3 class="mt-2 text-xl font-bold text-gray-900">Meta</h3>
+            <p class="mt-4 text-gray-600">
+              Desde su fundación, CELCAPI ha buscado convertirse en un referente
+              en la capacitación técnica automotriz en Ambato, brindando a sus
+              estudiantes las herramientas necesarias para sobresalir en una
+              industria competitiva, mientras fomentan el desarrollo personal y
+              profesional de cada uno de ellos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>

@@ -5,7 +5,7 @@ import Title from "../shared/Title.astro";
 ---
 
 <section id="vision">
-  <Container className="flex flex-col midmd:flex-row gap-10 lg:gap-12">
+  <Container className="flex flex-col midmd:flex-row gap-10 lg:gap-12 min-h-80">
     <div class="flex-1 flex midmd:w-7/12 lg:w-1/2 flex-col">
       <Title> Nuestra <span class="text-primary-700">Visión</span> </Title>
       <Paragraph className="mt-8">
@@ -35,9 +35,7 @@ import Title from "../shared/Title.astro";
         <img
           src={"/images/dev-with-c.webp"}
           alt="banner image"
-          width="1240"
-          height="1385"
-          class="w-auto left-1/2 -translate-x-1/2 absolute bottom-0 max-h-full"
+          class="w-auto left-1/2 -translate-x-1/2 absolute bottom-0 h-full"
         />
       </div>
     </div>

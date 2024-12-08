@@ -3,25 +3,7 @@ import GroupFooterNav from "../blocks/GroupFooterNav.astro";
 import Container from "../shared/Container.astro";
 import FooterNav from "../shared/FooterNav.astro";
 import Paragraph from "../shared/Paragraph.astro";
-
-const footerNav1 = [
-  {
-    itemLink: "#",
-    itemText: "Inicio",
-  },
-  {
-    itemLink: "#services",
-    itemText: "Servicios",
-  },
-  {
-    itemLink: "#about-us",
-    itemText: "Nosotros",
-  },
-  {
-    itemLink: "#features",
-    itemText: "Servicios",
-  },
-];
+import { navItems } from "./Navbar.astro";
 ---
 
 <footer
@@ -151,7 +133,7 @@ const footerNav1 = [
       </div>
 
       <GroupFooterNav>
-        <FooterNav title={"Secciones"} navItems={footerNav1} />
+        <FooterNav title={"Secciones"} navItems={navItems} />
       </GroupFooterNav>
     </div>
 
